@@ -35,7 +35,7 @@ ajax.onreadystatechange = function(){
             id: 'mapbox/streets-v11',
             tileSize: 512,
             zoomOffset: -1,
-            accessToken: 'pk.eyJ1IjoiYXJjaGlldGVsZmVyNyIsImEiOiJjbDBtcGpodmwwNGZkM2VxaXNxZHJ1bjNjIn0.LSQdpzFTpBxOk5leYsBWRg'
+            accessToken: ''
         }).addTo(city1_map);
 
         //creating second map
@@ -50,7 +50,7 @@ ajax.onreadystatechange = function(){
             id: 'mapbox/streets-v11',
             tileSize: 512,
             zoomOffset: -1,
-            accessToken: 'pk.eyJ1IjoiYXJjaGlldGVsZmVyNyIsImEiOiJjbDBtcGpodmwwNGZkM2VxaXNxZHJ1bjNjIn0.LSQdpzFTpBxOk5leYsBWRg'
+            accessToken: ''
         }).addTo(city2_map);
 
         ajax_poi.onreadystatechange = function(){
